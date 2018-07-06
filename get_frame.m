@@ -1,5 +1,9 @@
 clear all
 clc
+mkdir('color1');
+mkdir('color2');
+mkdir('gray1');
+mkdir('gray2');
 OLD_PATH = '\Users\xurongrong\Documents\GitHub\matlab-\';
 NEW_PATH_COLOR_1 = './color1';
 NEW_PATH_GRAY_1 = './gray1';
