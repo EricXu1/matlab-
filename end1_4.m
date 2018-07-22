@@ -38,3 +38,10 @@ for k=1:numFrame
     fileg2 = ['pic_gray_2_',num2str(k),'.jpg'];
     movefile(fileg2,NEW_PATH_GRAY_2);
 end
+%2.单帧的合成
+    %读取图片1，图片2，并提取相应特征点
+    
+    %特征点进行匹配，并生成相应坐标
+    %两张图片进行亮度调整
+    %进行图形变换及边缘处理以完成图像融合
+
