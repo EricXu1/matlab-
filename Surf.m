@@ -10,14 +10,3 @@ for k=1:numFrame
     matched_pts2= vpts2(indexPairs(:, 1));
 
 end
-
-
-    figure;
-    showMatchedFeatures(frame1_gray,frame2_gray,matched_pts1,matched_pts1);
-
-
-
-
-
-
-
